@@ -49,18 +49,3 @@
     height: auto;
 }
 
-@media (max-width: 650px) {
-    .footer-top {
-        align-items: flex-start;
-        flex-direction: column;
-    }
-
-    .footer-top nav {
-        gap: 16px;
-    }
-
-    .footer-bottom {
-        gap: 20px;
-        flex-wrap: wrap;
-    }
-}

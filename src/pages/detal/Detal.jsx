@@ -20,18 +20,3 @@ export default function Detal() {
 }
 
 
-// export default function Detail() {
-//     const [recipe, setRecipe] = useState();
-//     const { id } = useParams();
-    
-//     useEffect(() => {
-//         axios.get(`https://dummyjson.com/recipes/${id}`)
-//         .then(({data}) => setRecipe(data))
-//         .catch((e) => console.log(e))
-//     }, [id])
-//   return (
-//     <div>
-//         <img src={recipe?.image} alt="" />
-//     </div>
-//   )
-// }

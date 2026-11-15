@@ -29,7 +29,6 @@ export default function Banner() {
               <img src={banner} alt="Spicy delicious chicken wings" />
           </SwiperSlide>
       </Swiper>
-      {/* <img src={banner} alt="Spicy delicious chicken wings" /> */}
 
     </section>
   )
